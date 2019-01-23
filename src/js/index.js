@@ -2202,6 +2202,14 @@
             },
         },
         {
+            name: "MED - Mediterranencoin",
+            bip49available: false,
+            onSelect: function() {
+                network = bitcoinjs.bitcoin.networks.mediterraneancoin;
+                setHdCoin(2);
+            },                
+        },
+        {
             name: "NAV - Navcoin",
             onSelect: function() {
                 network = bitcoinjs.bitcoin.networks.navcoin;
